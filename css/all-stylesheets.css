@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Every Sunday - Newspaper, Magazine & Blog Theme
+Version:	1.1
+Last change:	15/May/2017
+Assigned to:	alia
+Primary use:	Newspaper, Magazine & Blog Websites
+ 
+-------------------------------------------------------------------*/
+
+/* Font Roboto Slab */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+
+/* Bootstrap v3.2.0 */
+@import url("bootstrap/bootstrap.min.css");
+
+/* Main Stylesheet */
+@import url("stylesheet.css");
+
+/* Mean Menu */
+@import url("../js/meanmenu/meanmenu.css");
+
+/* FontAwesome */
+@import url("../fonts/font-awesome/css/font-awesome.css");
+@import url("../fonts/font-awesome/css/font-awesome.min.css");
+
+/* REVOLUTION STYLE SHEETS */
+@import url("../revolution/css/settings.css");
+@import url("../revolution/css/layers.css");
+@import url("../revolution/css/navigation.css");
+@import url("../revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css");
+@import url("../revolution/fonts/font-awesome/css/font-awesome.min.css");
+
+/* Owl Carousel */
+@import url("../owl-carousel/owl-carousel/owl.carousel.css");
+@import url("../owl-carousel/owl-carousel/owl.theme.css");
+@import url("../owl-carousel/owl-carousel/owl.transitions.css");
+
+/* Magnific Popup core CSS file */
+@import url("../js/magnific-popup/magnific-popup.css");

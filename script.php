@@ -1,8 +1,49 @@
-<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ <!-- LOAD JQUERY LIBRARY -->
+    <script type="text/javascript" src="js/jquery-1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.lazyload.js"></script>
+    <script>
+      $("img.lazy").lazyload({
+        effect : "fadeIn"
+      });
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Hover Dropdown Menu --> 
+    <script src="js/bootstrap-hover/twitter-bootstrap-hover-dropdown.min.js"></script> 
+    <!-- Mean Menu -->
+    <script src="js/meanmenu/jquery.meanmenu.js"></script>
+    <!-- Sticky --> 
+    <script type="text/javascript" src="js/sticky/jquery.sticky.js"></script>        
+    <!-- SmoothScroll --> 
+    <script type="text/javascript" src="js/SmoothScroll/SmoothScroll.js"></script>
+    <!-- Owl Carousel --> 
+    <script type="text/javascript" src="owl-carousel/owl-carousel/owl.carousel.js"></script>
+    <!-- Magnific Popup core JS file -->
+    <script type="text/javascript" src="js/magnific-popup/jquery.magnific-popup.js"></script>
+    <!-- REVOLUTION JS FILES -->
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+      (Load Extensions only on Local File Systems !  
+      The following part can be removed on Server for On Demand Loading) -->  
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script type="text/javascript" src="revolution/js/slider-fullwidth.js"></script>
+    <!-- AJAX Contact Form -->      
+    <script type="text/javascript" src="js/contact/contact-form.js"></script>
+    <!-- Style Switcher --> 
+    <script type="text/javascript" src="js/styleswitcher/styleswitcher.js"></script>
+    <!-- FitVids --> 
+    <script type="text/javascript" src="js/fitvids/jquery.fitvids.js"></script>
+    <!-- Custom --> 
+    <script type="text/javascript" src="js/custom/custom.js"></script>
     <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");

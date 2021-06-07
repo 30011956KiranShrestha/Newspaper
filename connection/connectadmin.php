@@ -1,5 +1,4 @@
 <?php
-$host="localhost";
 $db="newspaper";
 $user="root";
 $pwd="";

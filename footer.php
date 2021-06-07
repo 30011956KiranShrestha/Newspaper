@@ -1,8 +1,11 @@
-<footer class="footer mt-auto py-3">
-    <div class="footer-copyright text-center py-3">© <?php  echo(date('Y')); ?> Copyright:
-  
-</div>
-
-<!-- /.container -->
-
-</footer>
+<section class="footer">
+  <!-- 3RD ROW STARTS -->
+  <div class="row3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 copyright">© Copyright <?php print date('Y') ?> - Toi Ohomai</div>
+      </div>
+    </div>
+  </div>
+  <!-- 3RD ROW ENDS -->
+</section>

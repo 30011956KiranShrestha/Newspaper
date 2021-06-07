@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteRule ^aboutus$ aboutus.php
+RewriteRule ^cart$ cart.php
+RewriteRule ^checkout$ checkout.php
+RewriteRule ^order$ order.php
+RewriteRule ^home$ home.php
+RewriteRule ^thankyou$ thankyou.php
+
+RewriteRule ^customer-login$ customer_login.php
+RewriteRule ^customer-account$ customer-account.php
+RewriteRule ^logout$ logout.php
